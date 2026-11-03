@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Lwin Oo Naing, Full-stack Software Engineer, Open Source Contributor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .name { font: 700 48px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: url(#accent);
+            animation: rise 1.2s ease-out both; }
+    .role { font: 500 26px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #e2e8f0;
+            opacity: 0; animation: cycle 12s infinite backwards; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; }
+    .tag { font: 400 15px 'Courier New', monospace; fill: #94a3b8; animation: rise 1.6s ease-out both; }
+    .bar { animation: grow 1.4s ease-out 0.4s both; transform-origin: 60px 0; }
+    .dot { animation: float 6s ease-in-out infinite; }
+    .d2 { animation-delay: 1.5s; } .d3 { animation-delay: 3s; } .d4 { animation-delay: 4.5s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes cycle { 0% { opacity: 0; transform: translateY(10px); }
+                       4% { opacity: 1; transform: none; }
+                       21% { opacity: 1; transform: none; }
+                       25% { opacity: 0; transform: translateY(-10px); }
+                       100% { opacity: 0; } }
+    @keyframes float { 0%,100% { transform: translateY(0); opacity: .25; } 50% { transform: translateY(-14px); opacity: .6; } }
+  </style>
+  <rect width="900" height="260" rx="16" fill="url(#bg)"/>
+  <circle class="dot" cx="780" cy="60" r="6" fill="#38bdf8"/>
+  <circle class="dot d2" cx="830" cy="150" r="4" fill="#a78bfa"/>
+  <circle class="dot d3" cx="720" cy="190" r="5" fill="#38bdf8"/>
+  <circle class="dot d4" cx="850" cy="220" r="3" fill="#a78bfa"/>
+  <text class="tag" x="60" y="62">&lt;hello world /&gt;</text>
+  <text class="name" x="60" y="124">Lwin Oo Naing</text>
+  <rect class="bar" x="60" y="140" width="220" height="4" rx="2" fill="url(#accent)"/>
+  <text class="role" x="60" y="196">Full-stack Software Engineer</text>
+  <text class="role r2" x="60" y="196">TypeScript · React · Node.js · NestJS</text>
+  <text class="role r3" x="60" y="196">Open Source Contributor</text>
+  <text class="role r4" x="60" y="196">Technical Writer · Bangkok, Thailand</text>
+</svg>
