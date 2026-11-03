@@ -6,7 +6,7 @@
 
 ## 👋 About me
 
-Full-stack software engineer based in Bangkok, Thailand. I build features end to end, from backend and data layers to React frontends, and I care about tests, documentation, and clear explanations.
+Full-stack software engineer. I build features end to end, from backend and data layers to React frontends, and I care about tests, documentation, and clear explanations.
 
 I'm currently contributing to open source and writing about what I learn along the way.
 
