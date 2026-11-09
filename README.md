@@ -41,7 +41,7 @@ I'm currently contributing to open source and writing about what I learn along t
 
 <!-- - [Article title](https://dev.to/your-link): one line on what it covers. -->
 
-- \*\*In progress
+- In progress
 
 ## 📫 Find me
 
