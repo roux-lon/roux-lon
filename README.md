@@ -27,14 +27,15 @@ I'm currently contributing to open source and writing about what I learn along t
 
 <!-- Add a row only after the PR is actually opened/merged. Keep status honest: Open / Merged / Released. -->
 
-<!-- | Project | Contribution | Status |
-| --- | --- | --- |
-| [Project name](https://github.com/owner/repo) | Short description of the fix | Open | -->
+| Project                                          | Contribution                                                                           | Status |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- | ------ |
+| [Recharts](https://github.com/recharts/recharts) | Fixed the stacked RadialBar domain so stack totals are included                        | Merged |
+| [Mantine](https://github.com/mantinedev/mantine) | Made the Indicator "processing" pulse respect the reduced-motion accessibility setting | Merged |
 
 ## 🚀 Projects
 
-- **[Memory Layer](https://github.com/YOUR_USERNAME/memory-layer)**: local-first Electron + React tool for saving, summarizing, and searching articles.
-- **[AI Agent Guard](https://github.com/YOUR_USERNAME/ai-agent-guard)**: backend safety layer that validates, blocks, redacts, or queues risky AI-agent actions before execution.
+- **[Memory Layer](https://github.com/roux-lon/memory-layer)**: local-first Electron + React tool for saving, summarizing, and searching articles.
+- **[AI Agent Guard](https://github.com/roux-lon/breakpoint)**: backend safety layer that validates, blocks, redacts, or queues risky AI-agent actions before execution.
 
 ## ✍️ Writing
 
