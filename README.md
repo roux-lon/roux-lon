@@ -27,10 +27,11 @@ I'm currently contributing to open source and writing about what I learn along t
 
 <!-- Add a row only after the PR is actually opened/merged. Keep status honest: Open / Merged / Released. -->
 
-| Project                                          | Contribution                                                                           | Status |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------- | ------ |
-| [Recharts](https://github.com/recharts/recharts) | Fixed the stacked RadialBar domain so stack totals are included                        | Merged |
-| [Mantine](https://github.com/mantinedev/mantine) | Made the Indicator "processing" pulse respect the reduced-motion accessibility setting | Merged |
+| Project                                                                                                          | Contribution                                                                           | Status |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------ |
+| [Recharts(PR)](<[https://github.com/recharts/recharts](https://github.com/recharts/recharts/pull/8160)>)         | Fixed the stacked RadialBar domain so stack totals are included                        | Merged |
+| [Mantine(PR)](<[https://github.com/mantinedev/mantine](https://github.com/mantinedev/mantine/pull/9375)>)        | Made the Indicator "processing" pulse respect the reduced-motion accessibility setting | Merged |
+| [TanStack/store(PR)](<[https://github.com/TanStack/store/pull/407](https://github.com/TanStack/store/pull/407)>) | declare @types/react as an optional peer dependency                                    | Merged |
 
 ## 🚀 Projects
 
